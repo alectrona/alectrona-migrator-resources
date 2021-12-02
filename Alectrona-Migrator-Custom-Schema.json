@@ -1,0 +1,42 @@
+{
+	"title": "Alectrona Migrator (com.alectrona.migrator)",
+	"description": "Settings for Alectrona Migrator",
+	"properties": {
+        "License": {
+            "title": "License Key",
+            "description": "Your valid license key provided upon subscription to Alectrona Migrator",
+            "property_order": 5,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "string"
+                }
+            ]
+        },
+        "Title": {
+            "title": "Title",
+            "description": "Title to appear in the dialogs displayed during the migration process (default is “Alectrona Migrator”)",
+            "property_order": 10,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "string"
+                }
+            ]
+        },
+        "LogoURL": {
+            "title": "Alternative Logo URL",
+            "description": "A URL of an image file you'd like to display in some of the dialogs",
+            "property_order": 15,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "string"
+                }
+            ]
+        }
+	}
+}
