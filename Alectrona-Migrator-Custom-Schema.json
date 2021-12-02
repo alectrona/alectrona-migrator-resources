@@ -1,7 +1,7 @@
 {
-	"title": "Alectrona Migrator (com.alectrona.migrator)",
-	"description": "Settings for Alectrona Migrator",
-	"properties": {
+    "title": "Alectrona Migrator (com.alectrona.migrator)",
+    "description": "Settings for Alectrona Migrator",
+    "properties": {
         "License": {
             "title": "License Key",
             "description": "Your valid license key provided upon subscription to Alectrona Migrator",
@@ -38,5 +38,5 @@
                 }
             ]
         }
-	}
+    }
 }
